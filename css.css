@@ -1,8 +1,9 @@
 header {
       text-align: center;
-      background: url("sky-on-the-sea.png");
-      background-size: cover;
-      color: white;
+      background: url("header-background.png");
+      background-size: 100%;
+      color: black;
+      padding-top: 10%;
 }
 a {
   color: white;
@@ -16,10 +17,35 @@ img {
   border-radius: 20px;
 }
 ul {
-  padding: 10px;
-  background: rgba(0,0,0,0.5);
+	margin: 0px 0px 0px 0px;
+  padding: 3px;
+  background: rgba(0,0,0,0.2);
 }
 li {
   display: inline;
   padding: 0px 10px 0px 10px;
+  font-size: 22;
+}
+.background{
+	background-image: url("sky-on-the-sea.jpg");
+	background-size: 100%;
+}
+.introduction{
+	width: 980px;
+	margin-left: 25%;
+	align: center;
+}
+.intro-left{
+	width: 300px;
+	float: left;
+}
+.intro-right{
+	margin-left: 5%;
+	width: 450px;
+	float: left;
+}
+.contact{
+	clear: both;
+	padding-top: 35px;
+	text-align: center;
 }
